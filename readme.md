@@ -12,6 +12,12 @@ To run this script, open the raw version of script.js, and paste it into the con
 window of your browser after you have done a fare search on Southwest.
 
 The script will display a breakdown as shown below:
-![breakdown](breakdown.png “breakdown”)
+![breakdown](breakdown.png)
 
+# Technical Details
 
+This script extracts information already present on the page. The fare code is 
+present in the HTML rendered by Southwest already and is available by inspecting
+the source. All this script does is render it on the page and divide the points
+per fare by the dollar amount. The script uses the existing copy of jquery that
+Southwest uses.
